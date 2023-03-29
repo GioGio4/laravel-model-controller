@@ -14,4 +14,4 @@ use App\Http\Controllers\PageController;
 |
 */
 
-Route::get('/', [PageController::class, 'homepage']);
+Route::get('/', [PageController::class, 'movieslist']);

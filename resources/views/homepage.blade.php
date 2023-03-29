@@ -10,7 +10,16 @@
 
 <body>
 
-    <h1>Homepage</h1>
+    <main>
+        <section class="movies-card container">
+            
+            @foreach ($movies as $movie)
+            <p>{{$movie->title}}</p>
+                
+            @endforeach
+        </section>
+    </main>
+
     
 </body>
 
