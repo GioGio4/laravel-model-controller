@@ -11,7 +11,9 @@
 <body>
 
     <main>
-        <section class="movies-card container mt-5">
+        <section class="movies-card container">
+
+            <h2 class="text-center text-bg-dark my-5">TOP 10 FILM</h2>
 
             <div class="row row-cols-4 g-3">
 
@@ -30,6 +32,7 @@
                 @endforeach
 
             </div>
+
         </section>
     </main>
 

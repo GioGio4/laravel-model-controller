@@ -1,5 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
+
+body{
+    min-height: 100vh;
+    background-color: #FFA07A;
+}
+
 .card {
     height: 100%;
 }

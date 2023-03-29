@@ -9,7 +9,7 @@ class PageController extends Controller
 {
     public function movieslist()
     {
-        $movies = Movie::all();
+        $movies = Movie::orderBy('vote', 'DESC')->get();
         // dd($movies);
         return view('homepage', compact('movies'));
     }
